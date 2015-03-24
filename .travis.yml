@@ -53,6 +53,7 @@ after_failure:
   \ fi\nfi\n"
 after_script:
 - echo leader=$BUILD_LEADER status=$BUILD_AGGREGATE_STATUS
+- echo "Why cannot found this file..?"
 addons:
   hosts:
     - testzone1.localhost
